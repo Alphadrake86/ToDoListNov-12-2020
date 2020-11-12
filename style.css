@@ -1,0 +1,76 @@
+.tg  {
+    border-collapse:collapse;
+    border-color:#93a1a1;
+    border-spacing:0;
+}
+
+.tg td{
+    background-color:#fdf6e3;
+    border-bottom-width:1px;
+    border-color:#93a1a1;
+    border-style:solid;
+    border-top-width:1px;
+    border-width:0px;
+    color:#002b36;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg th{
+    background-color:#657b83;
+    border-bottom-width:1px;
+    border-color:#93a1a1;
+    border-style:solid;
+    border-top-width:1px;
+    border-width:0px;color:#fdf6e3;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+.tg .tg-top{
+    border-color:inherit;
+    position:-webkit-sticky;
+    position:sticky;
+    text-align:left;
+    top:-1px;
+    vertical-align:top;
+    will-change:transform
+}
+
+.tg .tg-0{
+    background-color:#eee8d5;
+    border-color:inherit;
+    text-align:left;
+    vertical-align:top
+}
+
+.tg .tg-1{
+    border-color:inherit;
+    text-align:left;
+    vertical-align:top
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.delete{
+    text-align: center;
+}
+
+
+
+.tg-0:hover, .tg-1:hover{
+    background-color: #d8d2bf;
+}
+
+.delete:hover{
+    background-color: red;
+}

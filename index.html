@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/Todolist.js"></script>
+</head>
+<body>
+    
+    <table class="tg" style="table-layout: fixed; width: 50%">
+        <colgroup>
+        
+        <col style="width: auto">
+        <col style="width: 30px">
+        </colgroup>
+        <thead>
+          <tr>
+            <th class="tg-top" colspan="2">To Do:
+                <form onsubmit = "return false">
+                    <input type="text" id="add">
+                    <input type="submit" value="Add" onclick="newItem()">
+                </form>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="table">
+          
+        </tbody>
+        </table>
+        <button onclick="save()">SAVE</button>
+</body>
+<script>
+    load()
+</script>
+</html>
