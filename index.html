@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./Scripts/Todolist.js"></script>
+    <script src="./Todolist.js"></script>
 </head>
 <body>
     
@@ -14,13 +14,15 @@
         
         <col style="width: auto">
         <col style="width: 30px">
+        <col style="width: 30px">
         </colgroup>
         <thead>
           <tr>
-            <th class="tg-top" colspan="2">To Do:
+            <th class="tg-top" colspan="3">To Do:
                 <form onsubmit = "return false">
                     <input type="text" id="add">
                     <input type="submit" value="Add" onclick="newItem()">
+                    
                 </form>
             </th>
           </tr>
