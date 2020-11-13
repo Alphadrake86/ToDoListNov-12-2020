@@ -61,10 +61,9 @@
     text-decoration: line-through;
 }
 
-.delete{
-    text-align: center;
+table{
+    margin: auto;
 }
-
 
 
 .tg-0:hover, .tg-1:hover{
@@ -75,6 +74,6 @@
     background-color: red;
 }
 
-.edit:hover{
+.edit:hover, .save:hover{
     background-color: dodgerblue;
 }
