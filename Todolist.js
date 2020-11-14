@@ -13,8 +13,14 @@ function save() {
     document.getElementById("savebtn").innerHTML = checkClipboardHtml;
 }
 function load() {
-    ToDoList = JSON.parse(getCookie("list"));
+    listCookie = getCookie("list")
+    if(listCookie!=""){
+    ToDoList = JSON.parse();
     update();
+    return
+    }
+    ToDoList = []
+    return
 }
 function update() {
     document.getElementById("table").innerHTML = "";
